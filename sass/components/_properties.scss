@@ -1,0 +1,36 @@
+.properties {
+  display: flex;
+  flex-wrap: wrap;
+}
+.properties__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.properties__text {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+.properties__item {
+  width: calc((100% - 90px) / 4);
+  
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.container-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  }
+.top-icon {
+  width: 70px;
+  height: 70px;
+  align-items: center;
+}
