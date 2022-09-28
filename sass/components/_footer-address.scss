@@ -1,14 +1,16 @@
+// .container-left {
+//   margin-right: 70px;
+// }
 .container-left {
-  margin-right: 70px;
+  margin-bottom: 60px;
 }
-
 .location {
-    line-height: 1.71;
-    font-style: normal;
-    color: var(--light-text-color);
+  line-height: 1.71;
+  font-style: normal;
+  color: var(--light-text-color);
 }
 .address__item:not(:last-child) {
-    margin-bottom: 9px;
+  margin-bottom: 9px;
 }
 .address .link:hover,
 .address .link:focus {
@@ -18,4 +20,4 @@
   line-height: 1.71;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
-  }
+}

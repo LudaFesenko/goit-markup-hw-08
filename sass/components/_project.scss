@@ -1,4 +1,9 @@
 .section-project {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .section-project {
+    display: block;
     padding-top: 0;
   }
   .project-title {
@@ -10,10 +15,10 @@
   }
   .project-works {
     display: flex;
-  
-  &__item:not(:last-child) {
-    margin-right: 30px;
-  }
+
+    &__item:not(:last-child) {
+      margin-right: 30px;
+    }
   }
   .project-works__item--examples {
     position: relative;
@@ -37,3 +42,8 @@
     text-transform: uppercase;
     color: var(--light-text-color);
   }
+  .project-works__img {
+    width: 370px;
+    height: 294px;
+  }
+}

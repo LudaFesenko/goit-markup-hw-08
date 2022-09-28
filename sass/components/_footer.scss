@@ -4,5 +4,40 @@
 }
 .container-block {
   display: flex;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container-block {
+    padding-left: 61px;
+    padding-right: 74px;
+
+    &__footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 60px;
+    }
+  }
+  .container-block__footer .container-left,
+  .container-block__footer .footer-social {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container-block {
+    flex-direction: row;
+    align-items: baseline;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+
+    &__footer {
+      margin-bottom: 0;
+      margin-right: 93px;
+      align-items: baseline;
+    }
+  }
 }
