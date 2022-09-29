@@ -955,6 +955,11 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .hero {
+    width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+  }
   .section-block {
     background-image: url("../images/hero-tablet.jpg");
     padding: 118px 0;
@@ -968,6 +973,11 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .hero {
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
   .section-block {
     padding: 200px 0;
     background-image: url("../images/hero-desktop.jpg");
@@ -1290,6 +1300,12 @@ img {
 
 .footer-link {
   fill: var(--light-text-color);
+}
+
+.address {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .container-left {
